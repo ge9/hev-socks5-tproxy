@@ -33,6 +33,8 @@
 
 #include "hev-socks5-tproxy.h"
 
+#include "libc-compat.h"
+
 static int quit;
 static int fd_event;
 
