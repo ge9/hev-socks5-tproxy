@@ -18,7 +18,7 @@
 #include "hev-logger.h"
 
 #include "hev-utils.h"
-
+#include "../libc-compat.h"
 void
 run_as_daemon (const char *pid_file)
 {
