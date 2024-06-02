@@ -11,6 +11,7 @@
 #define __HEV_UTILS_H__
 
 #include <netinet/in.h>
+#include <sys/socket.h>
 
 void run_as_daemon (const char *pid_file);
 int set_limit_nofile (int limit_nofile);
