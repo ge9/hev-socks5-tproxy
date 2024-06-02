@@ -19,6 +19,7 @@
 
 #include "hev-utils.h"
 #include "../libc-compat.h"
+#include <stdlib.h>
 void
 run_as_daemon (const char *pid_file)
 {
