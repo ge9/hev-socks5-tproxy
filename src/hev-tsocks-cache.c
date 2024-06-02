@@ -23,6 +23,8 @@
 
 #include "hev-tsocks-cache.h"
 
+#include "libc-compat.h"
+
 typedef struct _HevTSock HevTSock;
 
 struct _HevTSock
